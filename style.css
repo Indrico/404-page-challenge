@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header, footer{
+    height: 8vh;
+}
+
+header{
+    font-family: inconsolata;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-left: 3%;
+    padding-top: 1%;
+    text-transform: uppercase;
+}
+
+.container{
+    width: 70%;
+    height: 72vh;
+    margin: auto;
+    margin-top: 5%;
+}
+.left{
+    float: left;
+    width: 50%;
+    margin: auto;
+}
+.left img{
+    width: 80%;
+    margin: auto;
+}
+.right{
+    float: right;
+    width: 50%;
+    margin: auto;
+}
+
+.title{
+    font-family: "Space Mono";
+    font-size: 1.95rem;
+    font-weight: 700;
+}
+
+.sub-title{
+    margin-top: 7%;
+    font-family: "Space Mono";
+    width: 60%;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.button{
+    margin-top: 9%;
+}
+
+button{
+    font-family: "Space Mono";
+    border: 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    padding: 18px 24px;
+    background-color: #333333;
+    color: white;
+}
+
+footer{
+    color: black;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+footer p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 1440px){
+    .title{
+        font-size: 1.6rem;
+    }
+    .sub-title{
+        width: 80%;
+    }
+    
+    .container{
+    }
+}
+
+@media (max-width: 480px){
+    header{
+        padding: 30px;
+        font-size: 16px;
+    }
+    .container{
+        width: 90%;
+        margin: auto;
+        height: unset;
+    }
+    .left{
+        float: none;
+        width: 100%;
+    }
+    .left img{
+        width: 100%;
+    }
+    .right{
+        float: none;
+        width: 100%;
+    }
+    .title{
+        margin-top: 40px;
+        font-size: 22px;
+    }
+
+    .sub-title{
+        width: 100%;
+    }
+
+    .button{
+        margin-bottom: 9%;
+    }
+    
+}
